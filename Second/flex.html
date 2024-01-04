@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Flexbox</title>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <p class="h1">Flex</p>
+
+        <div class="d-flex bg-dark justify-content-center text-white">
+            <div class="p-4 mx-5 my-3 bg-primary rounded-circle">1</div>
+            <div class="p-4 mx-5 my-3 bg-secondary rounded-circle">2</div>
+            <div class="p-4 mx-5 my-3 bg-info rounded-circle">3</div>
+            <div class="p-4 mx-5 my-3 bg-warning rounded-circle">4</div>
+            <div class="p-4 mx-5 my-3 bg-danger rounded-circle">5</div>
+            <div class="p-4 mx-5 my-3 bg-success rounded-circle">6</div>
+        </div>
+
+        <p class="h1">Equal Grow</p>
+        
+        <div class="d-flex bg-d text-center h3">
+            <div class="p-4 my-3 bg-info">1</div>
+            <div class="p-4 my-3 bg-success ">2</div>
+            <div class="p-4 my-3 bg-warning flex-grow-1">3</div>
+        </div>
+
+        <p class="h1">Equal Flex</p>
+        
+        <div class="d-flex bg-d text-center h3">
+            <div class="p-4 my-3 bg-primary flex-fill">1</div>
+            <div class="p-4 my-3 bg-secondary flex-fill">2</div>
+            <div class="p-4 my-3 bg-info flex-fill">3</div>
+            <div class="p-4 my-3 bg-warning flex-fill">4</div>
+            <div class="p-4 my-3 bg-danger flex-fill">5</div>
+            <div class="p-4 my-3 bg-success flex-fill">6</div>
+        </div>
+    </div>
+
+    <!-- we can order flex-items as we need by class order-{index} -->
+
+    <!-- we can add flex container properties by adding some classes like justify-content-{value}, align-items-{value},
+    align-content-{value} & flex-wrap-{value} -->
+
+</body>
+
+</html>
